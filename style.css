@@ -135,3 +135,28 @@ button.cashout:hover {
   font-size: 18px;
   color: #aaa;
 }
+/* Denarii image */
+img[src="denarii_card.png"] {
+  width: 120px; /* Make the card image much bigger */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Receive Denarii button */
+#receive-denarii {
+  display: inline-block;
+  padding: 18px 36px;
+  font-size: 32px;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  background-color: #ffc107;
+  color: #333;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#receive-denarii:hover {
+  background-color: #ffb300;
+}
