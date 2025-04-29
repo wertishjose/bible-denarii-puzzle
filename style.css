@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#wallet {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#verse-container {
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+
+.blank {
+  display: inline-block;
+  min-width: 100px;
+  min-height: 40px;
+  margin: 5px;
+  padding: 10px;
+  border: 2px dashed #00bcd4; /* light aqua border */
+  border-radius: 20px; /* make it rounded like a bubble */
+  background-color: #e0f7fa; /* light blue-green background */
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007B8F;
+}
+
+
+#word-bank {
+  margin-top: 20px;
+}
+
+.word {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #555;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.word:hover {
+  background-color: #ddd;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#banner-ad {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  border-top: 2px solid #ccc;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+/* Drag-over highlight for blank spaces */
+.blank.drag-over {
+  background-color: #d0ebff; /* Light blue highlight */
+  border-bottom: 2px solid #007BFF; /* Dark blue bottom line */
+}
+
+/* Highlight selected word */
+.selected-word {
+  background-color: #cdefff; /* Light blue background */
+  border: 2px solid #007BFF; /* Darker blue border */
+}
+
+/* Reward Card Popup Animation */
+#reward-card {
+  animation: popscale 0.5s ease forwards;
+}
+
+@keyframes popscale {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
