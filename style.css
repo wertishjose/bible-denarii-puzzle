@@ -1,52 +1,53 @@
-/* General page styling */
+/* GENERAL PAGE STYLING */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
-  padding: 30px 10px;
+  padding: 0;
   background-color: #f9f9f9;
   color: #333;
 }
 
-/* Denarii counter styling */
+/* WALLET (DENARII) COUNTER */
 #wallet {
-  font-size: 36px; /* MUCH bigger */
+  font-size: 48px; /* HUUUUGE */
   font-weight: bold;
+  margin: 30px 0;
+}
+
+/* BOOK SELECTOR */
+#select-book,
+select {
+  font-size: 36px;
+  padding: 12px;
   margin-bottom: 40px;
 }
 
-/* Bible book selector */
-#select-book,
-select {
-  font-size: 28px;
-  padding: 10px;
-  margin-bottom: 30px;
-}
-
-/* Verse container styling */
+/* VERSE CONTAINER (THE VERSE ITSELF) */
 #verse-container {
   margin-top: 40px;
   margin-bottom: 40px;
-  min-height: 200px;
-  font-size: 28px; /* MUCH bigger verse text */
+  min-height: 300px;
+  font-size: 38px; /* SUPER LARGE SCRIPTURE TEXT */
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.6;
+  padding: 0 20px;
 }
 
-/* Blank spaces for missing words */
+/* BLANK SPOTS (WHERE WORDS GO) */
 .blank {
   display: inline-block;
-  min-width: 180px;
-  min-height: 80px;
-  margin: 15px;
+  min-width: 220px;
+  min-height: 90px;
+  margin: 20px;
   padding: 20px;
-  border: 3px dashed #00bcd4;
-  border-radius: 30px;
+  border: 4px dashed #00bcd4;
+  border-radius: 35px;
   background-color: #e0f7fa;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 32px; /* REALLY BIG FONT */
   font-weight: bold;
   color: #007B8F;
   transition: background-color 0.2s;
@@ -56,20 +57,20 @@ select {
   background-color: #b2ebf2;
 }
 
-/* Word bank area */
+/* WORD BANK (CHOOSE WORDS FROM HERE) */
 #word-bank {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
-/* Word choices styling */
+/* WORD STYLING */
 .word {
   display: inline-block;
   margin: 12px;
-  padding: 18px 24px;
-  font-size: 24px; /* MUCH bigger words */
+  padding: 20px 28px;
+  font-size: 32px; /* ULTRA BIG */
   font-weight: bold;
   border: 3px solid #ccc;
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: #f0f8ff;
   cursor: pointer;
   transition: background-color 0.2s;
@@ -79,14 +80,14 @@ select {
   background-color: #d6eaff;
 }
 
-/* General button styling */
+/* BUTTONS (CHECK ANSWER, HINT, RELOAD, CASH OUT) */
 button {
-  padding: 18px 30px;
-  font-size: 24px;
+  padding: 18px 32px;
+  font-size: 32px;
   font-weight: bold;
-  margin: 15px;
+  margin: 20px;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
   background-color: #4caf50;
   color: white;
   cursor: pointer;
@@ -97,7 +98,7 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Special buttons (hint, reload, cash out) */
+/* SPECIAL BUTTON COLORS */
 button.hint {
   background-color: #ff9800;
 }
@@ -122,15 +123,15 @@ button.cashout:hover {
   background-color: #8e24aa;
 }
 
-/* View Collection button */
+/* VIEW COLLECTION */
 #view-collection {
-  margin-top: 30px;
-  font-size: 22px;
+  margin-top: 40px;
+  font-size: 30px;
 }
 
-/* Small ad space at bottom */
+/* FOOTER AD */
 #footer-ad {
-  margin-top: 50px;
-  font-size: 16px;
+  margin-top: 60px;
+  font-size: 18px;
   color: #aaa;
 }
