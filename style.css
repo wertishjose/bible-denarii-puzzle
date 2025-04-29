@@ -99,4 +99,52 @@ button {
     opacity: 1;
   }
 }
+/* 📱 Mobile Optimization for Smaller Screens */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
 
+  #wallet {
+    font-size: 18px;
+  }
+
+  #verse-reference {
+    font-size: 1rem;
+  }
+
+  #verse-container, #word-bank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .blank {
+    min-width: 80px;
+    min-height: 30px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 15px;
+  }
+
+  .word {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin: 5px;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    font-size: 16px;
+  }
+
+  #banner-ad {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+}
