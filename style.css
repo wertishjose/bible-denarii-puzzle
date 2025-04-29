@@ -3,47 +3,50 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
-  padding: 20px;
+  padding: 30px 10px;
   background-color: #f9f9f9;
   color: #333;
 }
 
 /* Denarii counter styling */
 #wallet {
-  font-size: 26px;
+  font-size: 36px; /* MUCH bigger */
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* Bible book selector */
 #select-book,
 select {
-  font-size: 18px;
-  padding: 5px;
-  margin-bottom: 20px;
+  font-size: 28px;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
 /* Verse container styling */
 #verse-container {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  min-height: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-height: 200px;
+  font-size: 28px; /* MUCH bigger verse text */
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 /* Blank spaces for missing words */
 .blank {
   display: inline-block;
-  min-width: 150px;
-  min-height: 60px;
-  margin: 10px;
-  padding: 15px;
-  border: 2px dashed #00bcd4;
-  border-radius: 25px;
+  min-width: 180px;
+  min-height: 80px;
+  margin: 15px;
+  padding: 20px;
+  border: 3px dashed #00bcd4;
+  border-radius: 30px;
   background-color: #e0f7fa;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   color: #007B8F;
   transition: background-color 0.2s;
@@ -55,18 +58,18 @@ select {
 
 /* Word bank area */
 #word-bank {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 /* Word choices styling */
 .word {
   display: inline-block;
-  margin: 8px;
-  padding: 12px 18px;
-  font-size: 18px;
+  margin: 12px;
+  padding: 18px 24px;
+  font-size: 24px; /* MUCH bigger words */
   font-weight: bold;
-  border: 2px solid #ccc;
-  border-radius: 15px;
+  border: 3px solid #ccc;
+  border-radius: 20px;
   background-color: #f0f8ff;
   cursor: pointer;
   transition: background-color 0.2s;
@@ -78,12 +81,12 @@ select {
 
 /* General button styling */
 button {
-  padding: 12px 24px;
-  font-size: 18px;
+  padding: 18px 30px;
+  font-size: 24px;
   font-weight: bold;
-  margin: 10px;
+  margin: 15px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: #4caf50;
   color: white;
   cursor: pointer;
@@ -121,13 +124,13 @@ button.cashout:hover {
 
 /* View Collection button */
 #view-collection {
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: 30px;
+  font-size: 22px;
 }
 
 /* Small ad space at bottom */
 #footer-ad {
   margin-top: 50px;
-  font-size: 14px;
+  font-size: 16px;
   color: #aaa;
 }
